@@ -5,7 +5,7 @@ ReadKeyboard is an application that records and stores keystroke events made by 
 You can use the batch file to simplify the process of compiling and executing Java code through a script.
 
 Important! 
--verify if the project have JNativeHook library
+- verify if the project have JNativeHook library
     File -> Project Structure -> Modules -> Dependencies -> Add -> Jar or DIrectory -> 
 - verify the location where the keystrokes are being saved
     public Path fileName = Path.of("**E:\\files.txt**");
