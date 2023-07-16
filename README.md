@@ -11,8 +11,10 @@ Important!
 - verify the location where the keystrokes are being saved
     - "public Path fileName = Path.of("**E:\\files.txt**");"
  
-    - 
+**Run from IntelliJ IDEA**
 ![2023-07-14 15-11-23 (online-video-cutter com)](https://github.com/Iulian99/ReadKeyboard/assets/17321203/c83a5906-a6a9-4856-83b8-c0b858017a77)
 
+
+**Run using a batch file**
 ![2023-07-14 15-11-23(2) (online-video-cutter com)](https://github.com/Iulian99/ReadKeyboard/assets/17321203/8dca08f8-86e1-4360-9b3b-28e868a6ebe3)
 
