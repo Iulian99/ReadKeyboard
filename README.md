@@ -2,7 +2,7 @@
 
 ReadKeyboard is an application that records and stores keystroke events made by the user on a keyboard.
 
-You can use the batch file to simplify the process of compiling and executing Java code through a **script**.
+You can use the **batch file** to simplify the process of compiling and executing Java code through a **script**.
 
 Important! 
 - verify if the project have JNativeHook library
