@@ -16,6 +16,6 @@ Important!
 
 
 
-**Run from IntelliJ IDEA**
+**Run using IntelliJ IDEA**
 ![2023-07-14 15-11-23(2) (online-video-cutter com)](https://github.com/Iulian99/ReadKeyboard/assets/17321203/8dca08f8-86e1-4360-9b3b-28e868a6ebe3)
 
